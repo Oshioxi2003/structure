@@ -1,0 +1,12 @@
+# Base requirements
+Django>=4.2,<5.0
+djangorestframework>=3.14.0
+django-cors-headers>=4.0.0
+python-dotenv>=1.0.0
+Pillow>=10.0.0
+
+# Database
+psycopg2-binary>=2.9.0
+
+# API
+drf-spectacular>=0.26.0
