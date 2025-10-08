@@ -1,8 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  sassOptions: {
-    includePaths: ['./src/styles'],
-  },
-}
+  reactStrictMode: true,
+};
 
-export default nextConfig
+export default nextConfig;
